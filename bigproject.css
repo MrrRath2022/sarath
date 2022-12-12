@@ -1,0 +1,362 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-color: rgb(26, 26, 37)!important; */
+    
+    font-family:   Calibri ;
+    overflow-x:auto;
+    background-color: black!important;
+    
+}
+.fix{
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    float: left;
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+}
+.info{
+    margin-top: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px 50px ;
+    float: left;
+    background-color: aqua;
+    overflow: hidden;
+}
+.title{
+  color: aliceblue;  
+  width: 69.5%;
+  float: left;
+   margin-top: -10px;
+  line-height: 0.2;
+  padding: 0;
+}
+/* .title p{
+    padding: 0;
+    margin: 0;
+    
+    padding: 10px;
+    margin-left: -5px;
+   
+}
+.title h4{
+    padding: 0;
+    margin: 0;
+     margin-top: 8px; 
+} */
+.con{
+    width: 20%;
+        color: aliceblue;
+    float: left;
+}
+.ser input{
+    width: 100%;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin: 0;
+    border-radius: 3px;
+    background-color: inherit;
+    border-bottom: 1px solid white;
+    color: white;
+}
+.ser{
+    padding: 10px;
+    overflow: hidden;
+}
+.list{
+    width: 100%;
+}
+.list ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.list ul li{
+    color: aliceblue;
+    padding: 10px;
+}
+.list ul li i{
+    margin-right: 20px;
+    float: left;
+    
+}
+.list ul li:hover {
+background-color:rgba(61, 54, 54, 0.515);
+
+}
+.list ul li.ba {
+    background-color:rgba(61, 54, 54, 0.515);
+    
+    }
+.fa-sun{
+    color: pink;
+}
+.fa-star{
+    color: green;
+}
+.fa-clipboard{
+    color: blue;
+}
+.cat{
+    /* position:absolute; */
+     position: fixed;
+    bottom: 0;
+    left: 0;
+    color: aliceblue;
+    float: left;
+    
+     
+}
+.cat i{
+    margin-right: 20px;
+}
+.ld{
+     
+    float: left;
+    position: fixed;
+    bottom: 0;
+    right:85%;
+    color: aliceblue;
+    padding: 10px; 
+}
+.al{
+    width: 15px ;
+    height: 15px;
+    border-radius: 50% 50% ;
+    float: right;
+    font-size: 10px;
+    background-color:rgb(26, 26, 37) ;
+    text-align: center;
+    padding: 5px;
+}
+.big{
+    width:84%;
+    float: left;
+    background-color: rgb(26, 26, 37);
+    height:100%;
+    position: fixed;
+right: 0;
+   color: aliceblue;
+   
+}
+.task{
+    width: 100%;
+    padding: 30px;
+   
+    float: left;
+}
+.task .ar .fa-house{
+    margin-right: 30px;
+}
+.ar{
+    font-size: 30px;
+    color: aqua;
+    font-weight: 200;
+    float: left;
+}
+.ri{
+    float: right;
+    color: white;
+
+}
+.wid{
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    
+}
+.gri{
+    width: 100%;
+    padding: 20px;
+    background-color: #eee;
+}
+.gri ul li{
+    border-bottom: 1px solid white;
+    margin-top: 50px;
+}
+.cos{
+    padding: 30px;
+    position: sticky;
+    
+    
+}
+.wrap{
+    padding: 30px;
+    position: relative;
+    height: 600px;
+    overflow-y: scroll;
+    overflow-x: none;
+}
+.contain{
+    width: 100%;
+    
+    font-size: 30px;
+    font-weight: 500;
+
+}
+.contain .fa-house{
+    margin-right: 30px;
+}
+.contain .fa-ellipsis{
+    float: right;
+    font-size: 15px;
+    margin-right: 20px;
+}
+.contain .fa-note-sticky{
+    float: right;
+    font-size: 15px;
+}
+.thi {
+    width: 100%;
+    margin-top: 20px;
+    float: left;
+    
+    overflow: hidden;
+}
+.thi ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+     
+}
+.thi ul li{
+    padding: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.875);
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+.thi ul li.no-border{
+    border-bottom: none;background-color: rgba(5, 5, 5, 0.157);
+   
+}
+.thi ul li span{
+    display: block;
+    font-size: 14px;
+    color: rgba(238, 238, 238, 0.554);
+    margin-top: 5px;
+} 
+.thi ul li span.left{
+    float: right;
+} 
+.thi ul li span.right{
+  margin-left: 22px;
+} 
+.thi ul li label{
+    width: 90%;
+    
+   
+    
+}
+.inpu{
+    width: 95%;
+    position: absolute;
+    margin: 0 auto;
+     margin-left: 50px;
+    bottom: 30px;
+    
+}
+.inpu input[type='text']{
+    width: 95%;
+    padding:15px;
+    border: none;
+    /* background-color: rgba(0, 0, 0, 0.483); */
+    outline: none;
+    color: white;
+    font-family:  FontAwesome;
+    margin-bottom: 5px;
+    margin-left: 32px;
+    background-color: rgba(0, 0, 0, 0.483)!important;
+    
+    
+
+     
+}
+.thi ul li .fa-star{
+    float: right;
+}
+.bkd{
+    width: 15px;
+    height: 15px;
+    background-color: aqua;
+}
+.bkd input{
+    width: 100%;
+    height: 100%;
+}
+ .profile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+ .not{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+    color: white;
+    top: 45%;
+    left: 40%;
+    transform: translate(50% 50%);
+ }
+#non{
+    display: none;
+}
+.inpu
+{
+    background-color: rgba(0, 0, 0, 0.87)!important;
+}
+.inpu input[type="checkbox"]{
+    position: absolute;
+    bottom: 1px;
+    left: 0;
+    width:30px;
+    height: 50px;
+    margin-top: 50px;
+    border: none;
+  background: black;
+    outline: none;
+    accent-color:rgba(0, 0, 0, 0.483)!important;
+     
+   
+    
+}
+.cat{
+    cursor: pointer;
+}
+.list ul li input{
+    
+    border: none;
+    background-color: rgba(0, 0, 0, 0.483);
+    outline: none;
+    color: white;
+    
+}
+.thi ul li{
+    cursor: pointer;
+}
+.op   select {
+    position: absolute;
+    bottom: 10px;
+    right:80px;
+    padding: 5px;
+    border: none;
+    background-color: black;
+    border-radius: 4px;
+    outline: none;
+    accent-color:rgba(0, 0, 0, 0.483)!important;
+    color: white;
+}.big{
+background-image:url("Image/photo-1536532184021-da5392b55da1.jpg") ;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+border-radius: 5px;
+}

@@ -1,0 +1,37 @@
+[
+     
+    {
+      "name": "My day",
+      "ta": "1",
+      "logo":"fa-regular fa-sun",
+      "sta":"1"
+      
+    },
+    {
+      "name": "Important",
+      "ta": "10",
+      "logo":"fa-regular fa-star",
+      "id":"",
+      "sta":"3"
+      
+    },
+    {
+      "name": "Planned",
+      "ta": "1",
+      "logo":"fa-regular fa-clipboard",
+      "id":"",
+      "sta":"2"
+    }
+    ,
+    {
+      "name": "Assinge to me",
+      "ta": "1",
+      "logo":"fa-solid fa-user",
+      "id":"",
+      "sta":"4"
+
+      
+      
+    }
+     
+  ]
