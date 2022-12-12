@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@700&family=Roboto:wght@700&display=swap');
+:root{
+    --background-color:#202020 ;
+    --backapp-app : #1c1c1c;
+    --red: rgb(83, 80, 80);
+    --gr: grey;
+}
+body{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    background-color: var(--background-color);
+    min-height: 560px;
+    width: 720px;
+    margin: auto;
+    border-radius: 15px ;
+    /* box-shadow: 1px 1px 0 2px rgb(233, 225, 225); */
+    display: grid;
+    grid-template-columns: 1.2fr 2fr;
+    position: relative;
+}
+.main{
+    background-color: var(--red);
+}
+.nav-left{
+    background-color: var(--backapp-app);
+    border-radius: 0.7rem ;
+}
+.nav-left .account-info{
+    padding: 15px;
+    /* line-height: 0.5; */
+    display: flex;
+}
+.nav-left .category,
+.nav-left .serch
+{
+    padding: 15px;
+}
+.nav-left .account-info img{
+        width: 60px;
+        height: 60px;
+        background-size: cover;
+        border-radius: 50%;
+        margin-right: 10px;
+}
+.nav-left .account-info .info{
+    padding: 5px;
+}
+.nav-left .account-info .info h2{
+    font-size: 16px;
+    margin: 0;
+}
+.nav-left .account-info .info p{
+    font-size: 12px ;
+    opacity: 0.7;
+    cursor: pointer;
+    margin: 0;
+}
+.nav-left .account-info .info p span{
+    font-size: 15px;
+}
+.nav-left .serch input[type="text"]{
+    width: 100%;
+    padding: 0;
+    outline: none;
+    background-color: inherit;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+}
+.nav-left .category{
+    height: 350px;
+    overflow: scroll;
+}
+.nav-left .category ul {
+  list-style-type: none;
+  font-size: 12px; 
+  padding: 0;
+  margin: 0;
+}
+.nav-left .category ul li{
+    padding: 8px 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 4px;
+    /* display: block; */
+}
+.nav-left .category ul li:hover{
+    background-color: var(--gr)
+}
+.nav-left .category ul li span
+{
+    margin: 0 20px 0 0;
+    /* font-size: 12px;  */
+    color: rgb(219, 209, 209);
+   
+}
+.nav-left .category ul li .back{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(62, 62, 67);
+    float: right;
+}
+.nav-left .category ul li .b{
+    width: 100%;
+    height: 100%;
+    float: right;
+    
+}
+.nav-left .category ul li .back a{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   line-height: 20px;
+}
+.nav-left .add-category{
+    width: 240px;
+    /* background-color: aqua; */
+    bottom: 15px;
+    position: absolute;
+   
+}
+ .nav-left .add-category a{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+} 
+.nav-left .add-category a span{
+    margin: 0 20px 0 0;
+}
+.container .main{
+    position: relative;
+}
+.main .wrapper{
+    padding: 30px;
+    position: relative;
+}
+
+.main .wrapper .take-title{
+    display: flex;
+    align-items: center;
+}
+.main .wrapper .take-title h2{
+    margin-left: 1rem;
+    font-weight: 600px;
+}
+/* .main .wrapper .tack-list{
+    position: relative;
+} */
+.main .tack-list ul{
+    list-style-type: none;
+    padding: 0;
+}
+.main .wrapper .tack-list{
+    height: 350px;
+    overflow: scroll;
+}
+.main .tack-list ul li {
+    background-color: var(--backapp-app);
+    padding: 7px 5px;
+    border-radius: 4px;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+.main .tack-list ul li:hover{
+    background-color: var(--gr)
+}
+.main .tack-list ul li .desc{
+    display: flex;
+    font-size: 10px;
+    opacity: 0.6;
+    justify-content: space-between;
+    padding: 7px 5px;
+}
+
+.main .tack-list ul li .add-new a{
+    display: flex;
+    align-items: center;
+}
+.main .tack-list ul li .add-new a span{
+    padding: 7px 5px;
+}
+.main .add {
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    display: block;
+    /* padding: 30px;  */
+    padding:  30px;
+    box-sizing: border-box;
+}
+.main .add a{
+    display: flex;
+    align-items: center;
+    background-color: var(--backapp-app);
+    border-radius: 4px;
+}
+.main .add a:hover{
+    background-color: var(--gr);
+    border-radius: 4px;
+}
+.main .add a span{
+    padding: 7px 5px;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+}
+.main .add input[type="text"]{
+    background-color: inherit;
+    color: white;
+    border: none;
+    /* border-bottom: 2px solid white; */
+    outline: none;
+    width: 90%;
+}
+.category ul li  input[type="text"] {
+    background-color: inherit;
+    color: white;
+    border: none;
+    /* border-bottom: 2px solid white; */
+    outline: none;
+}
